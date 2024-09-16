@@ -8,14 +8,16 @@ import java.util.List;
 import java.util.Random;
 
 public class UserService {
-    private static final List<String> NAMES = List.of("James", "Michael", "Robert", "John", "David", "William",
-            "Richard", "Joseph", "Thomas", "Daniel", "Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara",
-            "Susan", "Jessica", "Karen", "Sarah");
-    private static final List<String> LASTNAMES = List.of("Smith", "Johnson", "Williams", "Brown", "Jones", "Gracia",
-            "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson",
-            "Thomas", "Taylor", "Moore", "Jackson", "Martin");
-    private static final List<String> DOMAIN = List.of("gmail.com", "outlook.com", "yahoo.com", "protonmail.com",
-            "zoho.com", "hushmail.com", "mailfance.com", "tutanota.com", "thexyz.com", "runbox.com");
+    private static final List<String> NAMES = List.of("Ethan", "Oliver", "Liam", "Benjamin", "Lucas", "Henry",
+            "Alexander", "Sebastian", "Jack", "Samuel", "Emily", "Sophia", "Amelia", "Emma", "Isabella",
+            "Mia", "Ava", "Charlotte", "Harper", "Evelyn");
+
+    private static final List<String> LASTNAMES = List.of("Clark", "Mitchell", "Turner", "Harris", "Carter",
+            "Phillips", "Baker", "Evans", "Hall", "Roberts", "Campbell", "Parker", "Collins", "Stewart",
+            "Sanchez", "Morris", "Reed", "Cook", "Morgan", "Bell");
+
+    private static final List<String> DOMAIN = List.of("hotmail.com", "gmx.com", "icloud.com", "yandex.com",
+            "fastmail.com", "posteo.net", "mailbox.org", "inbox.lv", "lavabit.com", "safe-mail.net");
 
     public static User createUser() {
         Random random = new Random();
