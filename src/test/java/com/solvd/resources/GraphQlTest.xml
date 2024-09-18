@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GraphQLTestSuite">
+    <test name="GraphQLTest">
+        <classes>
+            <class name="com.solvd.GraphQl"/>
+        </classes>
+    </test>
+</suite>

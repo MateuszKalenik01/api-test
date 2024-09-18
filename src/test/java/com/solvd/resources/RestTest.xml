@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RESTTestSuite">
+    <test name="RestTest">
+        <classes>
+            <class name="com.solvd.BaseTest"/>
+        </classes>
+    </test>
+</suite>
